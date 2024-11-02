@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/bg_alarm_rectangle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람내용 추가"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/alarm_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="알람 울릴때 \n같이 보이는 메모를 추가해보세요!"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
